@@ -1,33 +1,91 @@
-HELP.md
-target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Compiled class file
+*.class
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Log file
+*.log
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+# ===== IntelliJ IDEA =====
+.idea/
 *.iml
+*.iws
 *.ipr
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+*.hprof
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# ===== Eclipse =====
+.classpath
+.project
+.settings/
+bin/
+.metadata/
+
+# ===== NetBeans =====
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ===== VS Code =====
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ===== Gradle =====
+.gradle/
 build/
+!gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
+gradle-app.setting
+.gradletasknamecache
 
-### VS Code ###
-.vscode/
+# ===== Maven =====
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper
+
+# ===== Kotlin =====
+*.kotlin_module
+.kotlin/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# ===== Env / secrets =====
+.env
+*.local
