@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: user-service
+
+discovery:
+  server-url: http://localhost:8080
+  service-name: user-service
+  service-port: 8081
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
